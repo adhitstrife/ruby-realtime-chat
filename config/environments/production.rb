@@ -59,10 +59,10 @@ Rails.application.configure do
   config.action_mailer.default_url_options = { host: "example.com" }
 
   # Ensure ActionCable is using wss (secure WebSocket) in production
-  config.action_cable.url = 'wss://https://ruby-realtime-chat.onrender.com//cable'
+  config.action_cable.url = 'wss://ruby-realtime-chat.onrender.com//cable'
   
   # Ensure the allowed origins include your domain (both http and https)
-  config.action_cable.allowed_request_origins = ['https://https://ruby-realtime-chat.onrender.com/', 'http://ruby-realtime-chat.onrender.com/']
+  config.action_cable.allowed_request_origins = ['https://ruby-realtime-chat.onrender.com/', 'http://ruby-realtime-chat.onrender.com/']
 
   # Specify outgoing SMTP server. Remember to add smtp/* credentials via rails credentials:edit.
   # config.action_mailer.smtp_settings = {
