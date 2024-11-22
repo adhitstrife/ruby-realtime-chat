@@ -12,7 +12,3 @@ production:
   adapter: redis
   url: <%= ENV['REDIS_URL'] %> # Use the Redis URL environment variable from Render
   channel_prefix: ruby_realtime_chat_production
-  allowed_request_origins:
-    - "https://ruby-realtime-chat.onrender.com"
-    - "https://ruby-realtime-chat.onrender.com"
-    - "https://chat-nextjs-s3uk.vercel.app"
