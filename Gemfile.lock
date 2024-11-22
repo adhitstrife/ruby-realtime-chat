@@ -71,6 +71,7 @@ GEM
     bcrypt_pbkdf (1.1.1)
     bcrypt_pbkdf (1.1.1-arm64-darwin)
     bcrypt_pbkdf (1.1.1-x86_64-darwin)
+    bigdecimal (3.1.8)
     bootsnap (1.18.4)
       msgpack (~> 1.2)
     brakeman (6.2.2)
@@ -121,6 +122,7 @@ GEM
     mocha (2.5.0)
       ruby2_keywords (>= 0.0.5)
     msgpack (1.7.5)
+    mutex_m (0.3.0)
     net-imap (0.5.1)
       date
       net-protocol
@@ -276,11 +278,13 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  bigdecimal
   bootsnap
   brakeman
   debug
   kamal
   mocha
+  mutex_m
   net-pop (>= 0.1.2)
   pg (~> 1.1)
   puma (>= 5.0)
