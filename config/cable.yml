@@ -15,3 +15,4 @@ production:
   allowed_request_origins:
     - "https://ruby-realtime-chat.onrender.com/"
     - "https://ruby-realtime-chat.onrender.com/"
+    - "https://chat-nextjs-s3uk.vercel.app/"
