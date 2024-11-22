@@ -7,9 +7,11 @@ apt-get update && apt-get install -y \
     zlib1g-dev
 
 # Install Bundler and dependencies
-gem install bundler
-bundle install
+
 
 set -o errexit
 
 bundle install
+gem install bundler
+bundle install
+bundle exec rails db:migrate
